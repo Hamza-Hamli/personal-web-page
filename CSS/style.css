@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    /* justify-content: center; */
 }
 
 nav ul .buttons {
@@ -25,7 +24,6 @@ nav ul .buttons {
 }
 
 .Lion-5 {
-    /* border-color: black; */
     border-radius: 100%;
     background-color: gold;
     transition: all 0.3s ease 0.1s;
@@ -64,25 +62,44 @@ hr:hover {
 }
 
 .sec2 {
+    background-image: url(../images/vswallpaper4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-content: space-evenly;
-    padding: 4em;
+    justify-content: space-between;
+    padding: 1em;
     background-color:rgb(252, 233, 210);
-    height: 100vh;
+    height: 90.2vh;
 }
 .content {
+    margin: 2em;
     display: flex;
     align-items:center;
-    height: 50%;
-    justify-content:space-between;
+    width: 70%;
+    justify-content:center;
     
 }
 
 .name-breif {
     padding-left: 3em;
-    /* position: relative; */
-    /* display:inline-flex; */
-    justify-content: center;
+}
+
+.name h1.hamza{
+    font-size: 60px;
+    /* margin-bottom: 1.5rem; */
+}
+
+.coder {
+    color:rgb(255, 174, 24);
+    font-size: 40px;
+}
+
+/* .hamza {
+    color: white;
+} */
+
+.breif p {
+    font-size: 20px;
 }
 
 .name-breif .breif .CV {
@@ -91,14 +108,31 @@ hr:hover {
 .scoialmedia ul {
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    padding: 1em;
 }
 
 .scoialmedia ul .sbn {
     padding: 0.5em;
     margin-bottom: 1em;
     border-radius: 30%;
+
 }
 
-.portait {
-    width: ;
+.surname {
+    color:orangered;
+    outline-color: #000000;
+
+}
+
+.theimage {
+    margin: 2em;
+    display: flex;
+    align-items:center;
+    width: 30%;
+    justify-content:center;
+}
+
+.portraito {
+    width: 250px;
 }
